@@ -1,0 +1,7 @@
+# 글 작성자 목록. 글의 front matter에서 `authors: [team]`처럼 키로 참조한다.
+team:
+  name: 정보체계관리단
+  title: 블로그 운영진
+  url: https://github.com/Software-Development-Soldier
+  image_url: https://github.com/Software-Development-Soldier.png
+  page: true

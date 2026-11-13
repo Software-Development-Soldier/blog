@@ -1,0 +1,15 @@
+# 사용할 태그 목록. 여기에 없는 태그를 글에 쓰면 빌드 시 경고가 난다.
+notice:
+  label: 공지
+  permalink: /notice
+  description: 블로그 운영 관련 공지
+
+guide:
+  label: 가이드
+  permalink: /guide
+  description: 글 작성 방법 등 안내 문서
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: 도큐사우루스 관련 글
