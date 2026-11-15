@@ -2,7 +2,7 @@
 
 export const SITE_TITLE = '정보체계관리단 블로그';
 export const SITE_DESCRIPTION = '정보체계관리단의 기술과 개발 이야기';
-export const REPO_URL = 'https://github.com/Software-Development-Soldier/blog-astro';
+export const REPO_URL = 'https://github.com/Software-Development-Soldier/blog';
 
 // 글 작성자 목록. 글의 머리말에서 `authors: [team]`처럼 키로 참조한다.
 export const AUTHORS = {
@@ -23,6 +23,6 @@ export const TAGS = {
 export type AuthorKey = keyof typeof AUTHORS;
 export type TagKey = keyof typeof TAGS;
 
-// 사이트가 하위 경로(/blog-astro)에서 서비스되므로 내부 링크에는 base를 붙인다.
+// 사이트가 하위 경로(/blog)에서 서비스되므로 내부 링크에는 base를 붙인다.
 export const withBase = (path: string) =>
 	`${import.meta.env.BASE_URL.replace(/\/$/, '')}${path}`;

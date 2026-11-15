@@ -11,7 +11,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://software-development-soldier.github.io',
-  base: '/blog-astro',
+  base: '/blog',
   integrations: [mdx(), sitemap(), react()],
 
 
